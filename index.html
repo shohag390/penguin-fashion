@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body class="container mx-auto">
     <!-- Header Section -->
     <header class="h-[100vh] px-[100px] bg-[#fffbf0]">
         <!-- Navbar Section -->
-        <nav class="flex justify-between items-center py-[20px]">
+        <nav class="flex justify-between items-center py-[20px] bg-[#fffbf0]">
             <img class="h-[40px]" src="./icons/logo.png" alt="">
             <ul class="flex items-center gap-[30px]">
                 <li>
@@ -29,13 +30,170 @@
                 </li>
             </ul>
         </nav>
+
+        <!-- Banner Section -->
+        <section class="flex items-center justify-between pt-[30px]">
+            <div class="">
+                <h1 class="font-bold text-[55px] uppercase leading-[60px] text-[#030347]"><span
+                        class="text-[#ffb833]">Be The
+                        Pengulns</span> <br> Of
+                    winter</h1>
+                <p class="pt-[15px] pb-[30px] text-[#515050]">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <br>
+                    Quod nemo
+                    adipisci
+                    repellat.
+                </p>
+                <button
+                    class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                        class="fa-solid fa-cart-shopping"></i> Buy
+                    now</button>
+            </div>
+            <div>
+                <img src="./images/model.png" alt="">
+            </div>
+        </section>
     </header>
 
     <!-- Main Section -->
-    <main></main>
+    <main>
+
+        <!-- Woman Jacket -->
+        <section class="px-[100px] py-[50px]">
+            <h4 class="font-bold text-[28px] uppercase pb-[20px] text-[#030347]">Woman jacket</h4>
+
+            <div class="grid grid-cols-3 gap-[30px]">
+                <div class="shadow-card p-[20px] rounded-2xl flex flex-col justify-center items-center">
+                    <div class="w-full h-[400px] bg-[#78accd25] rounded-xl flex justify-center items-center">
+                        <img class="h-[350px]" src="./images/jacket-1.png" alt="image">
+                    </div>
+
+                    <div>
+                        <h4 class="pt-[8px] text-[22px] font-bold text-[#030347]">Yellow Coat Jacket</h4>
+                        <p class="pt-[5px] pb-[10px] text-[#515050]">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Omnis
+                            harum.</p>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-[#ffb833] text-[32px] font-bold">$234</h4>
+                            <button
+                                class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                                    class="fa-solid fa-cart-shopping"></i> Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-card p-[20px] rounded-2xl flex flex-col justify-center items-center">
+                    <div class="w-full h-[400px] bg-[#78accd25] rounded-xl flex justify-center items-center">
+                        <img class="h-[350px]" src="./images/jacket-2.png" alt="image">
+                    </div>
+
+                    <div>
+                        <h4 class="pt-[8px] text-[22px] font-bold">Ladies Jacket</h4>
+                        <p class="pt-[5px] pb-[10px] text-[#515050]">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Omnis
+                            harum.</p>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-[#ffb833] text-[32px] font-bold">$234</h4>
+                            <button
+                                class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                                    class="fa-solid fa-cart-shopping"></i> Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-card p-[20px] rounded-2xl flex flex-col justify-center items-center">
+                    <div class="w-full h-[400px] bg-[#78accd25] rounded-xl flex justify-center items-center">
+                        <img class="h-[350px]" src="./images/jacket-3.png" alt="image">
+                    </div>
+
+                    <div>
+                        <h4 class="pt-[8px] text-[22px] font-bold">Woman Leather Jacket</h4>
+                        <p class="pt-[5px] pb-[10px] text-[#515050]">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Omnis
+                            harum.</p>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-[#ffb833] text-[32px] font-bold">$234</h4>
+                            <button
+                                class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                                    class="fa-solid fa-cart-shopping"></i> Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="px-[100px] py-[50px]">
+            <h4 class="font-bold text-[28px] uppercase pb-[20px] text-[#030347]">man jacket</h4>
+
+            <div class="grid grid-cols-3 gap-[30px]">
+                <div class="shadow-card p-[20px] rounded-2xl flex flex-col justify-center items-center">
+                    <div class="w-full h-[400px] bg-[#78accd25] rounded-xl flex justify-center items-center">
+                        <img class="h-[350px]" src="./images/jacket-4.png" alt="image">
+                    </div>
+
+                    <div>
+                        <h4 class="pt-[8px] text-[22px] font-bold text-[#030347]">Snowboard Jacket Mens</h4>
+                        <p class="pt-[5px] pb-[10px] text-[#515050]">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Omnis
+                            harum.</p>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-[#ffb833] text-[32px] font-bold">$234</h4>
+                            <button
+                                class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                                    class="fa-solid fa-cart-shopping"></i> Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-card p-[20px] rounded-2xl flex flex-col justify-center items-center">
+                    <div class="w-full h-[400px] bg-[#78accd25] rounded-xl flex justify-center items-center">
+                        <img class="h-[350px]" src="./images/jacket-5.png" alt="image">
+                    </div>
+
+                    <div>
+                        <h4 class="pt-[8px] text-[22px] font-bold">Man Leather Jacket</h4>
+                        <p class="pt-[5px] pb-[10px] text-[#515050]">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Omnis
+                            harum.</p>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-[#ffb833] text-[32px] font-bold">$234</h4>
+                            <button
+                                class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                                    class="fa-solid fa-cart-shopping"></i> Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="shadow-card p-[20px] rounded-2xl flex flex-col justify-center items-center">
+                    <div class="w-full h-[400px] bg-[#78accd25] rounded-xl flex justify-center items-center">
+                        <img class="h-[350px]" src="./images/jacket-6.png" alt="image">
+                    </div>
+
+                    <div>
+                        <h4 class="pt-[8px] text-[22px] font-bold">Man Casual Jacket</h4>
+                        <p class="pt-[5px] pb-[10px] text-[#515050]">Lorem ipsum dolor, sit amet consectetur adipisicing
+                            elit. Omnis
+                            harum.</p>
+                        <div class="flex items-center justify-between">
+                            <h4 class="text-[#ffb833] text-[32px] font-bold">$234</h4>
+                            <button
+                                class="py-[10px] px-[35px] bg-linear-to-b from-[#d2ff3e] to-[#7ba000] text-white rounded-lg font-bold"><i
+                                    class="fa-solid fa-cart-shopping"></i> Buy
+                                now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
 
     <!-- Footer Section -->
     <footer></footer>
+
+    <script src="https://kit.fontawesome.com/9753b0a825.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
